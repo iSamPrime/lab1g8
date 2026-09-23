@@ -12,6 +12,7 @@ Linus => Printing
 and togather we build the "Completed program". 
 Aggreed to document our code and use related variable names. 
 
+Deadline is wednesday 30/9
 
 ## Isam 
 
