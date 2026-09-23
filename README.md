@@ -32,8 +32,8 @@ git push origin main # pushes to the branch "main"
 
 ### …how to log in git in the terminal 
 ```
-git config user.name my-name
-git config user.email my-email@gmail.com
+git config --global user.name my-name
+git config --global user.email my-email@gmail.com
 ```
 
 Skapa en Token på GitHub
