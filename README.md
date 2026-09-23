@@ -13,14 +13,18 @@ git remote add origin https://github.com/iSamPrime/lab1g8.git
 git push -u origin main
 ```
 
-
+### …or pull an existing repository for the first time
+```
+git remote add origin https://github.com/iSamPrime/lab1g8.git
+git clone origin
+```
 
 ### …or pull an existing repository 
 ```
-git remote add origin https://github.com/iSamPrime/lab1g8.git
 git branch -M main
 git pull origin main 
 ```
+
 ### …or commit to an existing repository/branch
 ```
 git add filename.txt   # Stage a specific file
@@ -48,7 +52,7 @@ Skapa en Token på GitHub
 9. Kopiera koden direkt! Du kommer inte kunna se den igen.
 
 ```
-git push -u origin main
+git push origin main
 ```
 
 Password: Klistra in din Token (inte ditt vanliga lösenord). Obs: Det syns inga tecken eller stjärnor när du klistrar in i terminalen, det är helt normalt. Tryck bara på Enter.
